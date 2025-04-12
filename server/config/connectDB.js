@@ -9,6 +9,6 @@ export async function connect() {
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
   } catch (error) {
-    console.log(error);
+    console.log(`Connect to DB error: ${error}`);
   }
 }
